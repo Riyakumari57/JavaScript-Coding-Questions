@@ -5,7 +5,7 @@ This repository contains a collection of daily JavaScript coding questions or co
 <h3>JavaScript Concepts</h3>
 <ul>
   <li>Callback Function</li><p>A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.</p>
-   ```javascript
+<!--    ```javascript
   function modifyArray(arr, callback) {
     arr.push(100);
     callback();
@@ -16,7 +16,7 @@ This repository contains a collection of daily JavaScript coding questions or co
   modifyArray(arr, function() {
     console.log("array has been modified", arr);
   });
-```
+``` -->
   ```javascript
  Your code here
 ```
