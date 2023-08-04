@@ -15,6 +15,7 @@ This repository contains a collection of daily JavaScript coding questions or co
   
   modifyArray(arr, function() {
     console.log("array has been modified", arr);
-  }); ```
+  });
+  ```
   
 </ul>
