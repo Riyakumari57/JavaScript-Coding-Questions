@@ -10,9 +10,7 @@ This repository contains a collection of daily JavaScript coding questions or co
 ```javascript
 
     function modifyArray(arr, callback) {
-    // do something to arr here
     arr.push(100);
-    // then execute the callback function that was passed
     callback();
   }
   
