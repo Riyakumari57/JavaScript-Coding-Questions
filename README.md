@@ -48,7 +48,7 @@ console.log(a[1]);
   
 </ul>
 
-#<li>Higher Order Functions</li>
+<li>Higher Order Functions</li>
 <p>Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.</p>
 
 ```javascript
