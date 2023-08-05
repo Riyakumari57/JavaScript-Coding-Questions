@@ -48,4 +48,25 @@ console.log(a[1]);
   
 </ul>
 
+
+<li>Currying</li>
+<p>It is a technique in functional programming, that transforms the function of multiple arguments into several functions of a single argument in sequence. It is a method that takes one argument at a time and returns a new function that expects the next argument.</p>
+
+```javascript
+
+function add (a) {
+  return function(b){
+    return a + b;
+  }
+}
+
+add(3)(4)
+```
+<ul>Why is currying useful in JavaScript?
+  <li>It helps us to create a higher-order function</li>
+  <li>It reduces the chances of error in our function by dividing it into multiple smaller functions that can handle one responsibility.</li>
+  <li>It helps us to avoid passing the same variable multiple times</li>
+  <li>It is very useful in building modular and reusable code</li>
+</ul>
+
 </ul>
