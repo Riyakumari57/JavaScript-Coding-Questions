@@ -47,7 +47,28 @@ console.log(a[1]);
 
   
 </ul>
+<li>Higher Order Functions</li>
+<p>Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.</p>
 
+```javascript
+
+function higherOrder(fn) {
+  fn();
+}
+   
+higherOrder(function() { console.log("Hello world") });  
+
+```
+
+```javascript
+function higherOrder2() {
+  return function() {
+    return "Do something";
+  }
+}      
+var x = higherOrder2();
+x()   // Returns "Do something"
+```
 
 <li>Currying</li>
 <p>It is a technique in functional programming, that transforms the function of multiple arguments into several functions of a single argument in sequence. It is a method that takes one argument at a time and returns a new function that expects the next argument.</p>
