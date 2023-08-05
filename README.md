@@ -25,18 +25,19 @@ This repository contains a collection of daily JavaScript coding questions or co
 <li>Slice</li>
 <!-- <p>The slice() method returns a <b>shallow copy</b>(<span style="color:orange;">A shallow copy of an arrays or object is one where they both have the same reference in memory. That means that if you change the shallow copy, it may or may not change the original copy.</span>) of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.</p> -->
 <p>The Javascript arr.slice() method returns a new array containing a portion of the array on which it is implemented. The original remains unchanged.</p>
+<!-- <p>But </p>
 <ul>
   <li>
     <a href="https://dev.to/smpnjn/javascript-shallow-copy-what-is-a-shallow-copy-1pc5#:~:text=What%20is%20a%20shallow%20copy%20in%20JavaScript%3F,change%20the%20original%20copy%20too.">More about slice and shallow copy</a>
   </li>
   <li>
     <a href="https://www.freecodecamp.org/news/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd/">https://www.freecodecamp.org/news/copying-stuff-in-javascript</a>
-  </li>
+  </li> -->
 
 ```javascript
 
 const a = [1,2,3];
-let b = a.slice(0);
+let b = a.slice(0,3);
 b[1] = 4;
 console.log(b[1]);
 console.log(a[1]);
