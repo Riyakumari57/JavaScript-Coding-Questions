@@ -4,7 +4,7 @@ This repository contains a collection of daily JavaScript coding questions or co
 <h3>JavaScript Concepts</h3>
 <ul>
 <!--   1 -->
-  <li>Callback Function</li><p>A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.</p>
+  <li><b>Callback Function</b></li><p>A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.</p>
 
   
 ```javascript
@@ -24,7 +24,7 @@ This repository contains a collection of daily JavaScript coding questions or co
 
 <!--   2-->
 
-<li>Slice</li>
+<li><b>Slice</b></li>
 <!-- <p>The slice() method returns a <b>shallow copy</b>(<span style="color:orange;">A shallow copy of an arrays or object is one where they both have the same reference in memory. That means that if you change the shallow copy, it may or may not change the original copy.</span>) of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.</p> -->
 <p>The Javascript arr.slice() method returns a new array containing a portion of the array on which it is implemented. The original remains unchanged.</p>
 
@@ -53,7 +53,7 @@ console.log(a[1]);
 
 <!-- 3 -->
 
-<li>Higher Order Functions</li>
+<li><b>Higher Order Functions</b></li>
 <p>Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.</p>
 
 ```javascript
@@ -89,7 +89,7 @@ x()   // Returns "Do something"
 <!-- 4 -->
 
 
-<li>Currying</li>
+<li><b>Currying</b></li>
 <p>It is a technique in functional programming, that transforms the function of multiple arguments into several functions of a single argument in sequence. It is a method that takes one argument at a time and returns a new function that expects the next argument.</p>
 
 ```javascript
