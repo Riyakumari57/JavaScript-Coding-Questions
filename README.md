@@ -31,6 +31,17 @@ This repository contains a collection of daily JavaScript coding questions or co
   <li>
     <a href="https://www.freecodecamp.org/news/copying-stuff-in-javascript-how-to-differentiate-between-deep-and-shallow-copies-b6d8c1ef09cd/">https://www.freecodecamp.org/news/copying-stuff-in-javascript</a>
   </li>
+
+```javascript
+
+const a = [1,2,3];
+let b = a.slice(0);
+b[1] = 4;
+console.log(b[1]);
+console.log(a[1]);
+
+```
+  
 </ul>
 
 </ul>
