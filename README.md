@@ -47,7 +47,7 @@ console.log(a[1]);
 
   
 </ul>
-
+<br>
 <li>Higher Order Functions</li>
 <p>Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.</p>
 
@@ -71,6 +71,13 @@ var x = higherOrder2();
 x()   // Returns "Do something"
 ```
 
+<p>To know more about working of HOF refer these: </p>
+<ul>
+  <li>
+    <a href="https://www.freecodecamp.org/news/higher-order-functions-in-javascript-explained/">https://www.freecodecamp.org/news/higher-order-functions-in-javascript-explained</a>
+  </li>
+  
+</ul>
 <li>Currying</li>
 <p>It is a technique in functional programming, that transforms the function of multiple arguments into several functions of a single argument in sequence. It is a method that takes one argument at a time and returns a new function that expects the next argument.</p>
 
