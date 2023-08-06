@@ -160,6 +160,8 @@ call(objectInstance, arg1, /* …, */ argN)
 var person4 = {name:  "Riya"};
 saySomething.apply(person4, ["awesome"]);
 ```
+
+<p>The best part about apply is we don’t need to take care of the number of arguments that are passed to the invoking function. Because of its dynamic and versatile nature, we can use it in complicated situations.</p>
 </ul>
 
 
