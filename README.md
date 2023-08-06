@@ -141,6 +141,11 @@ saySomething.call(person4, "awesome");
 // Returns "Riya is awesome"   
 
 ```
+<p><b>Syntax</b></p>
+```javascript
+call(objectInstance)
+call(objectInstance, arg1, /* …, */ argN)
+```
 </ul>
 
 </ul>
