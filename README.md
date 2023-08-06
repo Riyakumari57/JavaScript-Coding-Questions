@@ -108,8 +108,39 @@ add(3)(4)
   <li>It helps us to avoid passing the same variable multiple times</li>
   <li>It is very useful in building modular and reusable code</li>
 </ul>
-
+<br>
 <li>Call , Apply , Bind</li>
+<ul>
+  <li>Call</li>
+  <p>It’s a predefined method in javascript.This method invokes a method (function) by specifying the owner object.<b>call()</b> method allows an object to use the method (function) of another object.</p>
 
+
+  ```javascript
+
+var person = {
+  age: 23,
+  getAge: function(){
+    return this.age;
+  }
+}        
+var person2 = {age:  54};
+person.getAge.call(person2);      
+// Returns 54
+
+```
+
+<p>call() accepts arguments:</p>
+
+```javascript
+
+function saySomething(message){
+  return this.name + " is " + message;
+}     
+var person4 = {name:  "John"};     
+saySomething.call(person4, "awesome");
+// Returns "John is awesome"   
+
+```
+</ul>
 
 </ul>
