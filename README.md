@@ -148,6 +148,19 @@ saySomething.call(person4, "awesome");
 call(objectInstance)
 call(objectInstance, arg1, /* …, */ argN)
 ```
+
+<li>Apply</li>
+<p>Apply is very similar to the call function. The only difference is that call() method takes arguments separately whereas, apply() method takes arguments as an <b>array</b>.</p>
+
+
+```javascript
+  function saySomething(message){
+  return this.name + " is " + message;
+}        
+var person4 = {name:  "Riya"};
+saySomething.apply(person4, ["awesome"]);
+```
 </ul>
+
 
 </ul>
