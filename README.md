@@ -136,9 +136,9 @@ person.getAge.call(person2);
 function saySomething(message){
   return this.name + " is " + message;
 }     
-var person4 = {name:  "John"};     
+var person4 = {name:  "Riya"};     
 saySomething.call(person4, "awesome");
-// Returns "John is awesome"   
+// Returns "Riya is awesome"   
 
 ```
 </ul>
