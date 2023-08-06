@@ -141,7 +141,7 @@ saySomething.call(person4, "awesome");
 // Returns "Riya is awesome"   
 
 ```
-<h6>After looking at the above codes we can say that in layperson's terms, it helps you replace the value of <b>this</b> inside a function with whatever value you want.</h6>
+<h5>After looking at the above codes we can say that in layperson's terms, it helps you replace the value of <b>this</b> inside a function with whatever value you want.</h5>
 <p><b>Syntax</b></p>
 
 ```javascript
