@@ -109,4 +109,7 @@ add(3)(4)
   <li>It is very useful in building modular and reusable code</li>
 </ul>
 
+<li>Call , Apply , Bind</li>
+
+
 </ul>
