@@ -42,14 +42,14 @@ x - y    //Returns 0 since the variable y (string type) is converted to a number
 ```javascript
 	// Regular Function.
 	function Greet() {
-		console.log("Welcome to GFG!");
+		console.log("Welcome to the Readme.md");
 	};
 	// Execution of Regular Function.
 	Greet();
 
 	// IIFE creation and execution.
 	(function() {
-		console.log("Welcome to GFG!");
+		console.log("Welcome to Readme.md!");
 	})();
 
 
