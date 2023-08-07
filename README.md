@@ -3,6 +3,47 @@ This repository contains a collection of daily JavaScript coding questions or co
 
 <h3>JavaScript Concepts</h3>
 <ul>
+
+<li>Implicit Type Coercion</li>
+<p>Implicit type coercion in javascript is the automatic conversion of value from one data type to another. It takes place when the operands of an expression are of different data types.</p>
+<ul>
+	<li>String coercion</li>
+	<p>String coercion takes place while using the ‘ + ‘ operator. When a number is added to a string, the number type is always converted to the string type</p>
+
+        ```javascript
+
+		  var x = 3;
+                  var y = "3";
+		  x + y // Returns "33" 
+        ```
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 <!--   1 -->
   <li><b>Callback Function</b></li><p>A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.</p>
 
@@ -50,6 +91,10 @@ console.log(a[1]);
   
 </ul>
 <br>
+
+
+
+
 
 <!-- 3 -->
 
