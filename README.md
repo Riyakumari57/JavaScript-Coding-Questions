@@ -25,6 +25,14 @@ var name = "Riya";
 var surname = " Kumari";
 name + surname     // Returns "Riya Kumari" 
 ```
+
+<p> Type coercion also takes place when using the ‘ - ‘ operator, but the difference while using ‘ - ‘ operator is that, a string is converted to a number and then subtraction takes place.</p>
+
+```javascript
+var x = 3;
+Var y = "3";
+x - y    //Returns 0 since the variable y (string type) is converted to a number type
+```
 </ul>
 
 
