@@ -54,7 +54,17 @@ x - y    //Returns 0 since the variable y (string type) is converted to a number
 
 
 ```
-
+<ul>
+	<li>IIFEs have their own scope i.e. the variables you declare in the Function Expression will not be available outside the function.</li>
+        <li>Similarly to other functions IIFEs can also be named or anonymous, but even if an IIFE does have a name it is impossible to refer/invoke it.</li>
+        <li>IIFEs can also have parameters.</li>
+</ul>
+<ul>
+	<b>Use Cases Of IIFE</b>
+	<li>Avoid polluting the global namespace </li>
+	<li>To create closures</li>
+	<li>Avoid conflict of variable names between libraries and programs.</li>
+</ul>
 
 
 
