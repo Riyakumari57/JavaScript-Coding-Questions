@@ -16,6 +16,15 @@ And my daily learnings .
  var y = "3";
 x + y // Returns "33" 
   ```
+<p>When JavaScript sees that the operands of the expression x + y are of different types ( one being a number type and the other being a string type ), it converts the number type to the string type and then performs the operation. Since after conversion, both the variables are of string type, the ‘ + ‘ operator outputs the concatenated string “33” in the first example and “24Hello” in the second example.</p>
+<p> ‘ + ‘ operator when used to add two numbers, outputs a number. The same ‘ + ‘ operator when used to add two strings, outputs the concatenated string:</p>
+
+```javascript
+
+var name = "Riya";
+var surname = " Kumari";
+name + surname     // Returns "Riya Kumari" 
+```
 </ul>
 
 
