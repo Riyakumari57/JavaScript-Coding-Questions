@@ -60,6 +60,7 @@ x - y    //Returns 0 since the variable y (string type) is converted to a number
         <li>IIFEs can also have parameters.</li>
 </ul>
 <ul>
+	<br>
 	<b>Use Cases Of IIFE</b>
 	<li>Avoid polluting the global namespace </li>
 	<li>To create closures</li>
