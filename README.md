@@ -10,11 +10,11 @@ This repository contains a collection of daily JavaScript coding questions or co
 	<li>String coercion</li>
 	<p>String coercion takes place while using the ‘ + ‘ operator. When a number is added to a string, the number type is always converted to the string type</p>
 
-        ```javascript
+```javascript
  var x = 3;
  var y = "3";
 x + y // Returns "33" 
-        ```
+  ```
 </ul>
 
 
