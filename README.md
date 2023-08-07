@@ -36,6 +36,24 @@ x - y    //Returns 0 since the variable y (string type) is converted to a number
 </ul>
 
 
+<li>IIFE</li>
+<p>An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined</p>
+
+```javascript
+	// Regular Function.
+	function Greet() {
+		console.log("Welcome to GFG!");
+	};
+	// Execution of Regular Function.
+	Greet();
+
+	// IIFE creation and execution.
+	(function() {
+		console.log("Welcome to GFG!");
+	})();
+
+
+```
 
 
 
@@ -47,20 +65,6 @@ x - y    //Returns 0 since the variable y (string type) is converted to a number
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 <!--   1 -->
   <li><b>Callback Function</b></li><p>A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.</p>
 
