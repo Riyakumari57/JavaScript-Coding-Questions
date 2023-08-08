@@ -190,6 +190,7 @@ add(3)(4)
 <ul>
   <li>Call</li>
   <p>It’s a predefined method in javascript.This method invokes a method (function) by specifying the owner object.<b>call()</b> method allows an object to use the method (function) of another object.</p>
+  <p>This Concept is called <b>Function Borrowing</b></p>
 
 
   ```javascript
