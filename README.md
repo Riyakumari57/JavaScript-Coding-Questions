@@ -245,22 +245,12 @@ saySomething.apply(person4, ["awesome"]);
 <p>This method returns a new function, where the value of “this” keyword will be bound to the owner object, which is provided as a parameter.</p>
 
 ```javascript
-let nameObj = {
-	name: "Riya"
-}
-
-let PrintName = {
-	name: "Anjali",
-	sayHi: function () {
-
-		// Here "this" points to nameObj
-		console.log(this.name);
-	}
-}
-
-let HiFun = PrintName.sayHi.bind(nameObj);
-HiFun();
-//Riya
+function saySomething(message){
+  return this.name + " is " + message;
+}     
+var person4 = {name:  "Riya"};     
+let Greet = saySomething.bind(person4, "awesome");
+console.log(Greet());
 ```
 </ul>
 
