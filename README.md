@@ -252,6 +252,9 @@ var person4 = {name:  "Riya"};
 let Greet = saySomething.bind(person4, "awesome");
 console.log(Greet());
 ```
+
+
+<p>The only difference between the call and bind is that it gives you copy of the function which can be invoked later rather than directly invoking it .</p>
 </ul>
 
 
