@@ -2,6 +2,8 @@
 This repository contains a collection of daily JavaScript coding questions or concepts along with their solutions.<br>
 And my daily learnings .
 
+In the problem folder, you will find different questions of JavaScript Solved with Questions attached .
+
 <h3>JavaScript Concepts</h3>
 <ul>
 
