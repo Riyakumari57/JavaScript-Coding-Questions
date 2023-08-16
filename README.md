@@ -259,5 +259,22 @@ console.log(Greet());
 <p>The only difference between the call and bind is that it gives you copy of the function which can be invoked later rather than directly invoking it .</p>
 </ul>
 
+# <li>Optional chaining (?.)</li>
+<p>The
+	``` 
+	
+	?.
+	```
+	
+ operator is like the . chaining operator, except that instead of causing an error if a reference is nullish (
+ ```
+ null
+```
+ or 
+ ```
+ undefined
+```
+), the expression short-circuits with a return value of undefined. When used with function calls, it returns undefined if the given function does not exist.</p>
+
 
 </ul>
