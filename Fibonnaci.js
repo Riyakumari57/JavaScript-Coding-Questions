@@ -4,6 +4,7 @@
 //Without Recursion
 let f0 = 0;
 let f1  = 1;
+let fi = null;
 console.log(f0);
 console.log(f1);
 for(let i = 0 ; i<10 ;i++)
