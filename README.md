@@ -12,7 +12,7 @@ In the problem folder, you will find different questions of JavaScript Solved wi
 - [Higher order Functions](#higher-order-functions)
 - [Currying](#currying)
 - [Call Apply Bind](#call-apply-bind)
-- [Optional Chaining](#optional-chaining-(?.))
+- [Optional Chaining](#optional-chaining)
 
 	<!--<a href="#Implicit Type Coercion"><li>Implicit Type Coercion</li></a>
 	<li>IIFE</li>
@@ -284,7 +284,7 @@ console.log(Greet());
 <p>The only difference between the call and bind is that it gives you copy of the function which can be invoked later rather than directly invoking it .</p>
 </ul>
 
-# Optional chaining (?.)
+# Optional chaining 
 <p>The ?. operator is like the . chaining operator, except that instead of causing an error if a reference is nullish (null or  undefined), the expression short-circuits with a return value of undefined. When used with function calls, it returns undefined if the given function does not exist.
 The <b>optional chaining (?.)</b> operator accesses an object's property or calls a function. If the object accessed or function called using this operator is undefined or null, the expression short circuits and evaluates to undefined instead of throwing an error.</p>
 
