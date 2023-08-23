@@ -12,7 +12,7 @@ In the problem folder, you will find different questions of JavaScript Solved wi
 - [Higher order Functions](#higher-order-functions)
 - [Currying](#currying)
 - [Call Apply Bind](#call-apply-bind)
-- [Optional Chaining](#optional-chaining)
+- [Optional Chaining](#optional-chaining-(?.))
 
 	<!--<a href="#Implicit Type Coercion"><li>Implicit Type Coercion</li></a>
 	<li>IIFE</li>
@@ -213,7 +213,7 @@ add(3)(4)
 </ul>
 <br>
 
-# <li>Call , Apply , Bind</li>
+# Call  Apply  Bind
 <ul>
   <li>Call</li>
   <p>It’s a predefined method in javascript.This method invokes a method (function) by specifying the owner object.<b>call()</b> method allows an object to use the method (function) of another object.</p>
