@@ -5,9 +5,10 @@ And my daily learnings .
 In the problem folder, you will find different questions of JavaScript Solved with Questions attached .
 <h3>JavaScript Concepts</h3>
 
-[Implicit Type Coercion](#implicit-type-coercion)
-[IIFE](#iife)
-[Callback Function](#callback-function)
+- [Implicit Type Coercion](#implicit-type-coercion)
+- [IIFE](#iife)
+- [Callback Function](#callback-function)
+
 	<!--<a href="#Implicit Type Coercion"><li>Implicit Type Coercion</li></a>
 	<li>IIFE</li>
 	<li>Callback Function</li>
