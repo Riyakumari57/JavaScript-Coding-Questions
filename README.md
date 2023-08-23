@@ -6,7 +6,7 @@ In the problem folder, you will find different questions of JavaScript Solved wi
 
 <h3>JavaScript Concepts</h3>
 <ul>
-	<li>Implicit Type Coercion</li>
+	<a href="#Implicit Type Coercion"><li>Implicit Type Coercion</li></a>
 	<li>IIFE</li>
 	<li>Callback Function</li>
 	<li>Slice</li>
