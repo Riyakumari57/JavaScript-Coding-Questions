@@ -4,9 +4,7 @@ And my daily learnings .
 
 In the problem folder, you will find different questions of JavaScript Solved with Questions attached .
 
-<h3>JavaScript Concepts</h3>
-<ul>
-	[Implicit Type Coercion](#Implicit-Type-Coercion)
+[Implicit Type Coercion](#implicit-type-coercion)
 	<!--<a href="#Implicit Type Coercion"><li>Implicit Type Coercion</li></a>
 	<li>IIFE</li>
 	<li>Callback Function</li>
@@ -17,9 +15,11 @@ In the problem folder, you will find different questions of JavaScript Solved wi
 	<a href="#Optional chaining (?.)"><li>Optional chaining (?.)</li></a>-->
 	<!--- [Optional Chaining](#Optional chaining (?.))
 		[Markdown - Optional Chaining](#Optional chaining (?.))-->
-</ul>
+
 
 <ul>
+	
+<h3>JavaScript Concepts</h3>
 
 # Implicit Type Coercion
 <p>Implicit type coercion in javascript is the automatic conversion of value from one data type to another. It takes place when the operands of an expression are of different data types.</p>
