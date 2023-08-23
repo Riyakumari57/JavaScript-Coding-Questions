@@ -8,6 +8,11 @@ In the problem folder, you will find different questions of JavaScript Solved wi
 - [Implicit Type Coercion](#implicit-type-coercion)
 - [IIFE](#iife)
 - [Callback Function](#callback-function)
+- [Slice](#slice)
+- [Higher order Functions](#higher-order-functions)
+- [Currying](#currying)
+- [Call Apply Bind](#call-apply-bind)
+- [Optional Chaining](#optional-chaining)
 
 	<!--<a href="#Implicit Type Coercion"><li>Implicit Type Coercion</li></a>
 	<li>IIFE</li>
@@ -118,7 +123,7 @@ x - y    //Returns 0 since the variable y (string type) is converted to a number
 
 <!--   2-->
 
-# <li><b>Slice</b></li>
+# Slice
 <!-- <p>The slice() method returns a <b>shallow copy</b>(<span style="color:orange;">A shallow copy of an arrays or object is one where they both have the same reference in memory. That means that if you change the shallow copy, it may or may not change the original copy.</span>) of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.</p> -->
 <p>The Javascript arr.slice() method returns a new array containing a portion of the array on which it is implemented. The original remains unchanged.</p>
 
@@ -151,7 +156,7 @@ console.log(a[1]);
 
 <!-- 3 -->
 
-# <li><b>Higher Order Functions</b></li>
+# Higher Order Functions
 <p>Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.</p>
 
 ```javascript
@@ -187,7 +192,7 @@ x()   // Returns "Do something"
 <!-- 4 -->
 
 
-# <li><b>Currying</b></li>
+# Currying
 <p>It is a technique in functional programming, that transforms the function of multiple arguments into several functions of a single argument in sequence. It is a method that takes one argument at a time and returns a new function that expects the next argument.</p>
 
 ```javascript
