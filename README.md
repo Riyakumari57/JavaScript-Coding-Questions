@@ -6,6 +6,8 @@ In the problem folder, you will find different questions of JavaScript Solved wi
 <h3>JavaScript Concepts</h3>
 
 [Implicit Type Coercion](#implicit-type-coercion)
+[IIFE](#iife)
+[Callback Function](#callback-function)
 	<!--<a href="#Implicit Type Coercion"><li>Implicit Type Coercion</li></a>
 	<li>IIFE</li>
 	<li>Callback Function</li>
@@ -53,7 +55,7 @@ x - y    //Returns 0 since the variable y (string type) is converted to a number
 </ul>
 
 
-<li>IIFE</li>
+# IIFE
 <p>An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined</p>
 
 ```javascript
@@ -94,7 +96,7 @@ x - y    //Returns 0 since the variable y (string type) is converted to a number
 
 
 <!--   1 -->
-  # <li><b>Callback Function</b></li>
+  # Callback Function
   <p>A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.</p>
 
   
