@@ -14,6 +14,7 @@ In the problem folder, you will find different questions of JavaScript Solved wi
 	<li>Currying</li>
 	<li>Call , Apply , Bind</li>
 	<li>Optional chaining (?.)</li>
+	- [Optional chaining](#Optional chaining)
 </ul>
 
 <ul>
