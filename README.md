@@ -13,8 +13,9 @@ In the problem folder, you will find different questions of JavaScript Solved wi
 	<li>Higher Order Functions</li>
 	<li>Currying</li>
 	<li>Call , Apply , Bind</li>
-	- [Optional Chaining](#Optional chaining (?.))
-		[Markdown - Optional Chaining](#Optional chaining (?.))
+	<a href="#Optional chaining (?.)"><li>Optional chaining (?.)</li></a>
+	<!--- [Optional Chaining](#Optional chaining (?.))
+		[Markdown - Optional Chaining](#Optional chaining (?.))-->
 </ul>
 
 <ul>
