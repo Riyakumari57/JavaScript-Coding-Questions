@@ -3,6 +3,7 @@ This repository contains a collection of daily JavaScript coding questions or co
 And my daily learnings .
 
 In the problem folder, you will find different questions of JavaScript Solved with Questions attached .
+<h3>JavaScript Concepts</h3>
 
 [Implicit Type Coercion](#implicit-type-coercion)
 	<!--<a href="#Implicit Type Coercion"><li>Implicit Type Coercion</li></a>
@@ -19,7 +20,7 @@ In the problem folder, you will find different questions of JavaScript Solved wi
 
 <ul>
 	
-<h3>JavaScript Concepts</h3>
+
 
 # Implicit Type Coercion
 <p>Implicit type coercion in javascript is the automatic conversion of value from one data type to another. It takes place when the operands of an expression are of different data types.</p>
