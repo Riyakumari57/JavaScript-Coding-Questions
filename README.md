@@ -13,6 +13,7 @@ In the problem folder, you will find different questions of JavaScript Solved wi
 - [Currying](#currying)
 - [Call Apply Bind](#call-apply-bind)
 - [Optional Chaining](#optional-chaining)
+- [Inheritance](#inheritance)
 
 	<!--<a href="#Implicit Type Coercion"><li>Implicit Type Coercion</li></a>
 	<li>IIFE</li>
@@ -288,5 +289,33 @@ console.log(Greet());
 <p>The ?. operator is like the . chaining operator, except that instead of causing an error if a reference is nullish (null or  undefined), the expression short-circuits with a return value of undefined. When used with function calls, it returns undefined if the given function does not exist.
 The <b>optional chaining (?.)</b> operator accesses an object's property or calls a function. If the object accessed or function called using this operator is undefined or null, the expression short circuits and evaluates to undefined instead of throwing an error.</p>
 
+# Inheritance
+```
+
+class surname {
+  constructor() {
+    console.log("kumari 💫");
+  }
+}
+
+class Name extends surname {
+  constructor() {
+    console.log("Riya");
+    super();
+  }
+}
+
+const user = new Name();
+```
+
+Explanation : 
+
+```
+const user = new Name();
+```
+
+<p>
+	This line creates an instance of the Name class, which triggers the constructor of the Name class. Inside the constructor, "Riya" is logged to the console, and then the super() method is called, which triggers the constructor of the surname class. In the surname constructor, "kumari 💫" is logged to the console.
+</p>
 
 </ul>
