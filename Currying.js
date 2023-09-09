@@ -3,7 +3,8 @@
 //It is a process of taking a function with multiple arguments and turning 
 //it tinto a sequence of functions each with only a single argument
 
-function calculateVolume(Length)
+
+function calculateVolume(length)
 {
     return function(breadth){
         return function (height){
@@ -14,4 +15,4 @@ function calculateVolume(Length)
 
 }
 
-console.log(calculateVolume((2)(3))(5));
+console.log(calculateVolume(2)(3)(5));

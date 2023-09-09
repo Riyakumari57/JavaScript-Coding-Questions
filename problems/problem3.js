@@ -15,9 +15,9 @@ function FormNewArray(arr1 , arr2) {
 
     for(y of arr2)
     {
-        if(!arr1.includes(x))
+        if(!arr1.includes(y))
         {
-            arr3.push(x);
+            arr3.push(y);
         }
     }
 
